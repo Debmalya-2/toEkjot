@@ -125,6 +125,7 @@ img {
 .endcontent {
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .endcontent>a {
@@ -135,6 +136,7 @@ img {
 .endcontent>a>ion-icon {
     color: rgb(0, 148, 47);
     font-size: 24px;
+    
 }
 
 .endcontent>a>ion-icon:hover {
