@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B'day</title>
+    <link rel="stylesheet" href="birthday.css">
+    <link rel="icon" href="2.png" style="border-radius: 120px; font-size: larger;">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Source+Sans+Pro:wght@200&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <marquee behavior="slide" direction="left" scrollamount="20">
+            <p>&#127873;Happy 19<sup>th</sup> Birthday Ekjot!!&#127873;</p>
+        </marquee>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="1.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="2.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="4.JPG" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="6.jpg" style="width:100%">
+            </div>
+        </div>
+
+        <div class="subcontent">
+            <div class="one">Hi Ekjot, I want to tell you something that I never told you before.&#129303; I took admission here just to be friends with you, otherwise, what I am learning here, I would have learned in Kolkata also. Now the question is from where did I come to know about you?. Classes were started and when you became CR, I texted you for the first time. I still know that day...the day was very special to me. I dont know WHY?</div>
+
+            <div class="two">I saw you for the first time on October 26, 2021, you came to college with your mom. Then from the next day the classes started and we became friends, for me you were a bigger friend than a friend. I never wished that you ever got into trouble, that's why I used to talk to you more, but everyone thought that I must have some wrong intention.&#129325; </div>
+
+            <div class="three">I still remember Dec 25, 2021 when you thought that you should not have been friends with me. That day I came back and asked myself did I deserve all this?&#128546; I dont know WHY I think so much about you.</div>
+
+            <div class="four">After that day when you stopped talking to me, I found the answer of <strong>WHY?</strong> Because I only wanted your friendship and your companionship and when I became friends with you&#128519;, my life changed. And when you stopped talking to me, I was only waiting for the day when you will realize that I had no bad intentions. You must be thinking why am I telling you all this? Because I dont want this truth to end with me...</div>
+            
+            <div class="five">I just want you to be happy always. And don't you ever think of yourself alone, I will always be with you forever. I don't care what you think of me but what I think for you, I think with my heart. I just want to be with you in your difficult times. The biggest achievement of my life has come by being friends with you and here's to my best friend&#129309;...</div>
+        </div>
+
+        <div class="maincontent">
+            <div class="main">
+                Wishing you a very very happy birthday. You deserve the very best of everything. No matter what life throws at us, I will always have your back.
+            </div>
+        </div>
+
+        <div class="endcontent">
+            <a href="https://api.whatsapp.com/send?phone=+91-7980989957&text=I want to celebrate this day with you Deb!! &#128522;"
+                target="_blank">Feedback&nbsp; <ion-icon name="logo-whatsapp"></ion-icon></a>
+        </div>
+    </div>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000);
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

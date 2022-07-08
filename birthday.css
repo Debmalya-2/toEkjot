@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Source+Sans+Pro:wght@200&family=Varela+Round&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Arima', cursive;
+}
+
+marquee {
+    background-color: rgb(54, 54, 54);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.content>marquee>p {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    transition-duration: 5s;
+    /* padding: 0%; */
+    margin: 10px;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    margin-top: 10px;
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 9s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.subcontent {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.subcontent>div {
+    width: 60%;
+    margin: 20px 10px;
+    font-family: 'Arima', cursive;
+}
+
+.one {
+    color: black;
+    background-color: rgb(186, 243, 243);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.two {
+    color: black;
+    background-color: rgb(233, 249, 186);
+    border-radius: 10px;
+    padding: 15px;
+    align-self: flex-end;
+}
+
+.three {
+    color: black;
+    background-color: rgb(171, 247, 195);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.four {
+    color: black;
+    background-color: rgb(249, 200, 243);
+    border-radius: 10px;
+    padding: 15px;
+    align-self: flex-end;
+}
+
+.five {
+    color: black;
+    background-color: rgb(250, 231, 192);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.maincontent {
+    margin-bottom: 20px;
+    margin-left: 25%;
+}
+
+.main {
+    width: 60%;
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.endcontent {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.endcontent>a {
+    text-decoration: none;
+    color: white;
+}
+
+.endcontent>a>ion-icon {
+    color: rgb(0, 148, 47);
+    font-size: 24px;
+}
+
+.endcontent>a>ion-icon:hover {
+    color: rgb(0, 255, 81);
+}
+
+@media screen and (max-width:399px) {
+    .content>marquee>p {
+        text-align: center;
+        font-size: 24px;
+        transition-duration: 5s;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:400px) {
+    .content>marquee>p {
+        text-align: center;
+        font-size: 26px;
+        transition-duration: 5s;
+        margin: 10px;
+    }
+}
